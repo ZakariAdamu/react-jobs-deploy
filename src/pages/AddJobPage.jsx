@@ -23,10 +23,12 @@ const AddJobPage = ({ addJobSubmit }) => {
 			location,
 			description,
 			salary,
-			companyName,
-			companyDescription,
-			contactEmail,
-			contactPhone,
+			company: {
+				name: companyName,
+				description: companyDescription,
+				contactEmail,
+				contactPhone,
+			},
 		};
 		addJobSubmit(newJob);
 
