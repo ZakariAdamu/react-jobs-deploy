@@ -1,6 +1,20 @@
 {
   "jobs": [
     {
+      "id": "1",
+      "title": "Front-End Engineer (React)",
+      "type": "Full-Time",
+      "location": "Miami, FL",
+      "description": "Join our team as a Front-End Developer in sunny Miami, FL. We are looking for a motivated individual with a passion for crafting beautiful and responsive web applications. Experience with UI/UX design principles and a strong attention to detail are highly desirable.",
+      "salary": "$70K - $80K",
+      "company": {
+        "name": "Veneer Solutions",
+        "description": "Veneer Solutions is a creative agency specializing in digital design and development. Our team is dedicated to pushing the boundaries of creativity and innovation to deliver exceptional results for our clients.",
+        "contactEmail": "contact@loremipsum.com",
+        "contactPhone": "555-555-5555"
+      }
+    },
+    {
       "id": "2",
       "title": "Front-End Engineer (React & Redux)",
       "type": "Full-Time",
@@ -57,28 +71,58 @@
       }
     },
     {
-      "id": "cd0a",
-      "title": "React Front-end Developer",
+      "id": "6",
+      "title": "Full Stack React Developer",
       "type": "Full-Time",
-      "location": "Qatar",
-      "description": "This is a front-end role",
-      "salary": "$150K - 175K",
-      "companyName": "GOOD Qatar Company",
-      "companyDescription": "We Good always",
-      "contactEmail": "zakari.adamu714@gmail.com",
-      "contactPhone": "08167842561"
+      "description": "Exciting opportunity for a Full-Time Front-End Developer in bustling Atlanta, GA. We are seeking a talented individual with a passion for building elegant and scalable web applications. Join our team and make an impact!",
+      "location": "Atlanta, GA",
+      "salary": "$90K - $100K",
+      "company": {
+        "name": "Browning Technologies",
+        "description": "Browning Technologies is a rapidly growing technology company specializing in e-commerce solutions. We offer a dynamic and collaborative work environment where employees are encouraged to think creatively and innovate.",
+        "contactEmail": "contact@consecteturadipisicing.com",
+        "contactPhone": "555-555-5555"
+      }
     },
     {
-      "id": "4cc7",
-      "title": "React Front-end role",
+      "id": "7",
+      "title": "Full Stack React Developer",
       "type": "Full-Time",
-      "location": "Qatar",
-      "description": "This is a good role",
-      "salary": "$125K - 150K",
-      "companyName": "Qatar Tech",
-      "companyDescription": "This is an awesome company",
-      "contactEmail": "zakari.adamu714@gmail.com",
-      "contactPhone": "08167842561"
+      "description": "Exciting opportunity for a Full-Time Front-End Developer in bustling Atlanta, GA. We are seeking a talented individual with a passion for building elegant and scalable web applications. Join our team and make an impact!",
+      "location": "Atlanta, GA",
+      "salary": "$90K - $100K",
+      "company": {
+        "name": "Browning Technologies",
+        "description": "Browning Technologies is a rapidly growing technology company specializing in e-commerce solutions. We offer a dynamic and collaborative work environment where employees are encouraged to think creatively and innovate.",
+        "contactEmail": "contact@consecteturadipisicing.com",
+        "contactPhone": "555-555-5555"
+      }
+    },
+    {
+      "id": "8",
+      "title": "Full Stack React Developer",
+      "type": "Full-Time",
+      "description": "Exciting opportunity for a Full-Time Front-End Developer in bustling Atlanta, GA. We are seeking a talented individual with a passion for building elegant and scalable web applications. Join our team and make an impact!",
+      "location": "Atlanta, GA",
+      "salary": "$90K - $100K",
+      "company": {
+        "name": "Browning Technologies",
+        "description": "Browning Technologies is a rapidly growing technology company specializing in e-commerce solutions. We offer a dynamic and collaborative work environment where employees are encouraged to think creatively and innovate.",
+        "contactEmail": "contact@consecteturadipisicing.com",
+        "contactPhone": "555-555-5555"
+      }
+    },
+    {
+      "id": "f579",
+      "title": "React Developer",
+      "type": "Remote",
+      "location": "Abuja, Abuja Municipal, Federal Capital Territory, NGA",
+      "description": "A good job",
+      "salary": "Over $200K",
+      "companyName": "GOOD Company",
+      "companyDescription": "Very good company",
+      "contactEmail": "good@goodco.com",
+      "contactPhone": "1234 555 5555"
     }
   ]
 }
