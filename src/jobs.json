@@ -2,17 +2,15 @@
   "jobs": [
     {
       "id": "1",
-      "title": "Front-End Engineer (React)",
-      "type": "Full-Time",
+      "title": "Front-End Engineer (React/Vue)",
+      "type": "Remote",
       "location": "Miami, FL",
       "description": "Join our team as a Front-End Developer in sunny Miami, FL. We are looking for a motivated individual with a passion for crafting beautiful and responsive web applications. Experience with UI/UX design principles and a strong attention to detail are highly desirable.",
       "salary": "$70K - $80K",
-      "company": {
-        "name": "Veneer Solutions",
-        "description": "Veneer Solutions is a creative agency specializing in digital design and development. Our team is dedicated to pushing the boundaries of creativity and innovation to deliver exceptional results for our clients.",
-        "contactEmail": "contact@loremipsum.com",
-        "contactPhone": "555-555-5555"
-      }
+      "companyName": "Veneer Solutions",
+      "companyDescription": "Veneer Solutions is a creative agency specializing in digital design and development. Our team is dedicated to pushing the boundaries of creativity and innovation to deliver exceptional results for our clients.",
+      "contactEmail": "contact@loremipsum.com",
+      "contactPhone": "555-555-5555"
     },
     {
       "id": "2",
@@ -21,12 +19,10 @@
       "location": "Miami, FL",
       "description": "Join our team as a Front-End Developer in sunny Miami, FL. We are looking for a motivated individual with a passion for crafting beautiful and responsive web applications. Experience with UI/UX design principles and a strong attention to detail are highly desirable.",
       "salary": "$70K - $80K",
-      "company": {
-        "name": "Veneer Solutions",
-        "description": "Veneer Solutions is a creative agency specializing in digital design and development. Our team is dedicated to pushing the boundaries of creativity and innovation to deliver exceptional results for our clients.",
-        "contactEmail": "contact@loremipsum.com",
-        "contactPhone": "555-555-5555"
-      }
+      "companyName": "Veneer Solutions",
+      "companyDescription": "Veneer Solutions is a creative agency specializing in digital design and development. Our team is dedicated to pushing the boundaries of creativity and innovation to deliver exceptional results for our clients.",
+      "contactEmail": "contact@loremipsum.com",
+      "contactPhone": "555-555-5555"
     },
     {
       "id": "3",
@@ -60,15 +56,13 @@
       "id": "5",
       "title": "Full Stack React Developer",
       "type": "Full-Time",
-      "description": "Exciting opportunity for a Full-Time Front-End Developer in bustling Atlanta, GA. We are seeking a talented individual with a passion for building elegant and scalable web applications. Join our team and make an impact!",
       "location": "Atlanta, GA",
+      "description": "Exciting opportunity for a Full-Time Front-End Developer in bustling Atlanta, GA. We are seeking a talented individual with a passion for building elegant and scalable web applications. Join our team and make an impact!",
       "salary": "$90K - $100K",
-      "company": {
-        "name": "Browning Technologies",
-        "description": "Browning Technologies is a rapidly growing technology company specializing in e-commerce solutions. We offer a dynamic and collaborative work environment where employees are encouraged to think creatively and innovate.",
-        "contactEmail": "contact@consecteturadipisicing.com",
-        "contactPhone": "555-555-5555"
-      }
+      "companyName": "Browning Technologies",
+      "companyDescription": "Browning Technologies is a rapidly growing technology company specializing in e-commerce solutions. We offer a dynamic and collaborative work environment where employees are encouraged to think creatively and innovate.",
+      "contactEmail": "contact@consecteturadipisicing.com",
+      "contactPhone": "555-555-5555"
     },
     {
       "id": "6",
@@ -86,43 +80,15 @@
     },
     {
       "id": "7",
-      "title": "Full Stack React Developer",
+      "title": "Full Stack React Dev",
       "type": "Full-Time",
-      "description": "Exciting opportunity for a Full-Time Front-End Developer in bustling Atlanta, GA. We are seeking a talented individual with a passion for building elegant and scalable web applications. Join our team and make an impact!",
       "location": "Atlanta, GA",
-      "salary": "$90K - $100K",
-      "company": {
-        "name": "Browning Technologies",
-        "description": "Browning Technologies is a rapidly growing technology company specializing in e-commerce solutions. We offer a dynamic and collaborative work environment where employees are encouraged to think creatively and innovate.",
-        "contactEmail": "contact@consecteturadipisicing.com",
-        "contactPhone": "555-555-5555"
-      }
-    },
-    {
-      "id": "8",
-      "title": "Full Stack React Developer",
-      "type": "Full-Time",
       "description": "Exciting opportunity for a Full-Time Front-End Developer in bustling Atlanta, GA. We are seeking a talented individual with a passion for building elegant and scalable web applications. Join our team and make an impact!",
-      "location": "Atlanta, GA",
       "salary": "$90K - $100K",
-      "company": {
-        "name": "Browning Technologies",
-        "description": "Browning Technologies is a rapidly growing technology company specializing in e-commerce solutions. We offer a dynamic and collaborative work environment where employees are encouraged to think creatively and innovate.",
-        "contactEmail": "contact@consecteturadipisicing.com",
-        "contactPhone": "555-555-5555"
-      }
-    },
-    {
-      "id": "f579",
-      "title": "React Developer",
-      "type": "Remote",
-      "location": "Abuja, Abuja Municipal, Federal Capital Territory, NGA",
-      "description": "A good job",
-      "salary": "Over $200K",
-      "companyName": "GOOD Company",
-      "companyDescription": "Very good company",
-      "contactEmail": "good@goodco.com",
-      "contactPhone": "1234 555 5555"
+      "companyName": "Browning Technologies",
+      "companyDescription": "Browning Technologies is a rapidly growing technology company specializing in e-commerce solutions. We offer a dynamic and collaborative work environment where employees are encouraged to think creatively and innovate.",
+      "contactEmail": "contact@consecteturadipisicing.com",
+      "contactPhone": "555-555-5555"
     }
   ]
 }
