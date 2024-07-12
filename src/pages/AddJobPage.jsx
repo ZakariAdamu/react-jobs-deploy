@@ -11,7 +11,7 @@ const AddJobPage = ({ addJobSubmit }) => {
 	const [companyName, setCompanyName] = useState("");
 	const [companyDescription, setCompanyDescription] = useState("");
 	const [contactEmail, setContactEmail] = useState("");
-	const [contactPhone, setContactPhone] = useState("");
+	const [contactPhone, setContactPhone] = useState(null);
 
 	const navigate = useNavigate();
 
