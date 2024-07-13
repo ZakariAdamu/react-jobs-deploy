@@ -34,14 +34,14 @@ const EditJobPage = ({ updateJobSubmit }) => {
 				name: companyName,
 				description: companyDescription,
 				contactEmail,
-				contactPhone, 
+				contactPhone,
 			},
 		};
 		updateJobSubmit(updatedJob);
 
 		toast.success("Job updated successfully");
 
-		return navigate(`/jobs/${id}`); 
+		return navigate(`/jobs`);
 	};
 	return (
 		<section className="bg-indigo-50">

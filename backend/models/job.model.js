@@ -38,7 +38,7 @@ const JobSchema = mongoose.Schema(
 				required: true,
 			},
 			contactPhone: {
-				type: Number,
+				type: String,
 				required: true,
 			},
 		},

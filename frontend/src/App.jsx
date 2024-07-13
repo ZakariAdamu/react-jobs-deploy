@@ -43,7 +43,7 @@ const App = () => {
 			headers: {
 				"Content-Type": "application/json",
 			},
-			body: JSON.stringify(job), 
+			body: JSON.stringify(job),
 		});
 		return;
 	};
@@ -55,12 +55,12 @@ const App = () => {
 				<Route path="/jobs" element={<JobsPage />} />
 				<Route path="/add-job" element={<AddJobPage addJobSubmit={addJob} />} />
 				<Route
-					path="/edit-job/:id"
+					path="api/jobs/edit-job/:id"
 					element={<EditJobPage updateJobSubmit={updateJob} />}
 					loader={jobLoader}
 				/>
 				<Route
-					path="/jobs/:id"
+					path="api/jobs/:id"
 					element={<JobPage deleteJob={deleteJob} />}
 					loader={jobLoader}
 				/>
@@ -73,3 +73,4 @@ const App = () => {
 };
 
 export default App;
+// /api/jobs/${job._id}
