@@ -73,4 +73,3 @@ const App = () => {
 };
 
 export default App;
-// /api/jobs/${job._id}
