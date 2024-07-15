@@ -5,14 +5,18 @@ import Spinner from "./Spinner";
 const JobListings = ({ isHome = false }) => {
 	const [jobs, setJobs] = useState([]);
 	const [loading, setLoading] = useState(true);
+	let slicedData;
 
 	useEffect(() => {
 		const fetchJobs = async () => {
-			const apiUrl = isHome ? "/api/jobs?_limit=3" : "/api/jobs";
+			const apiUrl = "/api/jobs";
 			try {
 				const res = await fetch(apiUrl);
 				const data = await res.json();
-				setJobs(data);
+				isHome
+					? (slicedData = data.slice(0, 3))
+					: (slicedData = data.slice(0, -1));
+				setJobs(slicedData);
 			} catch (error) {
 				console.log("Error fetching data!", error);
 			} finally {
