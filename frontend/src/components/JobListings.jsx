@@ -15,7 +15,7 @@ const JobListings = ({ isHome = false }) => {
 				const data = await res.json();
 				isHome
 					? (slicedData = data.slice(0, 3))
-					: (slicedData = data.slice(0, -1));
+					: (slicedData = data.slice(0, 100));
 				setJobs(slicedData);
 			} catch (error) {
 				console.log("Error fetching data!", error);
