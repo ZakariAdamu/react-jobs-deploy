@@ -12,11 +12,7 @@ app.use(express.urlencoded({ extended: false }));
 // routes
 app.use("/api/jobs", jobRoute);
 
-// app.listen(5001, () => {
-// 	console.log("Server is running on port 5001 and thankszz!!!");
-// });
-
-const port = process.env.PORT || 5001;
+const port = process.env.PORT || 5002;
 
 app.listen(port, () => {
 	console.log(`Server is running at http://localhost:${port} Enjoy coding!`);
@@ -24,9 +20,7 @@ app.listen(port, () => {
 
 // Get backend api homepage (initial url testing)
 app.get("/", (req, res) => {
-	res.send(
-		"Hello from Node Backend API, AlhamdulilLah"
-	);
+	res.send("Hello from Node Backend API, AlhamdulilLah");
 });
 
 mongoose
