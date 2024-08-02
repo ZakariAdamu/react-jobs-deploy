@@ -8,6 +8,8 @@ app.use(express.json());
 
 // middleware configuration to allow for entering data in other formats (eg. form encoded format) aside the JSON format
 app.use(express.urlencoded({ extended: false }));
+// app.use(cors());
+// DeviceMotionEvent.config({ path: "./config/.env" });
 
 // routes
 app.use("/api/jobs", jobRoute);
@@ -19,9 +21,19 @@ app.listen(port, () => {
 });
 
 // Get backend api homepage (initial url testing)
+// app.get("/", (req, res) => {
+// 	res.send("Hello from Node Backend API, AlhamdulilLah");
+// });
 app.get("/", (req, res) => {
 	res.send("Hello from Node Backend API, AlhamdulilLah");
 });
+
+// mongoose
+// 	.connect(process.env.MONGODB_URL)
+// 	.then(() => {
+// 		console.log("Connected to Database!!");
+// 	})
+// 	.catch(() => console.log("Connection failed!"));
 
 mongoose
 	.connect(
