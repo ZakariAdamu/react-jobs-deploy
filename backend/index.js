@@ -17,7 +17,7 @@ app.use(express.json());
 
 mongoose
 	.connect(
-		"mongodb+srv://zakariadamu714:pc3bQHH0okMD0a4j@cluster0.yxnuqu4.mongodb.net/Node-API?retryWrites=true&w=majority&appName=Cluster0"
+		"mongodb+srv://zakariadamu714:pc3bQHH0okMD0a4j@cluster0.yxnuqu4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority&appName=Cluster0"
 	)
 	.then(() => {
 		console.log("Connected to Database!!");
