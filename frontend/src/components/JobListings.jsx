@@ -12,7 +12,7 @@ const JobListings = ({ isHome = false }) => {
 			const apiUrl = "/api/jobs";
 			try {
 				const res = await fetch(apiUrl);
-				const data = await res.json();
+				const data = await res.json.parse();
 				isHome
 					? (slicedData = data.slice(0, 3))
 					: (slicedData = data.slice(0, 100));
